@@ -91,7 +91,7 @@ export default function App() {
   className="flex items-center gap-2"
 >
   <img
-    src="./images/logo.png"
+    src="/images/logo.png"
     alt="Luphonix Logo"
     className="w-9 h-9 object-contain"
   />
@@ -163,7 +163,7 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
             <div className="relative aspect-square overflow-hidden border border-white/10 bg-white/5">
               <img 
-                src="./images/Gloves.png" 
+                src="/images/Gloves.png" 
                 alt="Luphonix Omni-gesture MK1" 
                 className="w-full h-full object-contain p-8 grayscale"
                 referrerPolicy="no-referrer"
@@ -232,7 +232,7 @@ export default function App() {
               </div>
               <div className="order-1 md:order-2 aspect-video overflow-hidden border border-white/10">
                 <img 
-                  src="./images/1.png" 
+                  src="/images/1.png" 
                   alt="Gaming with Luphonix MK1" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   referrerPolicy="no-referrer"
@@ -244,7 +244,7 @@ export default function App() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className="aspect-video overflow-hidden border border-white/10">
                 <img 
-                  src="./images/4.png" 
+                  src="/images/4.png" 
                   alt="3D Modeling with Luphonix MK1" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   referrerPolicy="no-referrer"
@@ -284,7 +284,7 @@ export default function App() {
               </div>
               <div className="order-1 md:order-2 aspect-video overflow-hidden border border-white/10">
                 <img 
-                  src="./images/2.png" 
+                  src="/images/2.png" 
                   alt="Smart Home Ecosystem Control" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   referrerPolicy="no-referrer"
@@ -348,7 +348,7 @@ export default function App() {
       <footer className="py-12 px-6 border-t border-white/10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-2">
-            <img src="./images/logo.png" alt="Luphonix Logo" className="w-9 h-9 object-contain" />
+            <img src="/images/logo.png" alt="Luphonix Logo" className="w-9 h-9 object-contain" />
             <span className="font-display font-bold text-sm tracking-tighter uppercase">Luphonix</span>
           </div>
           
