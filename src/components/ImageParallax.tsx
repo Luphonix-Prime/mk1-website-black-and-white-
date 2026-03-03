@@ -83,7 +83,7 @@ export const ImageParallax: React.FC<ImageParallaxProps> = ({ scrollProgress, hi
         <div className="relative rounded-[2rem] overflow-hidden shadow-[0_0_100px_rgba(6,182,212,0.15)] border border-white/10 bg-black/40 backdrop-blur-sm">
           <img 
             src={activeImage} 
-            alt="Luphonix Glove" 
+            alt="Luphonix Omni-Gesture MK1" 
             className="w-full h-auto object-contain"
             referrerPolicy="no-referrer"
           />

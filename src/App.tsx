@@ -94,9 +94,11 @@ export default function App() {
           <a href="#action" className="hover:text-white/60 transition-colors">See in Action</a>
           <a href="#use-cases" className="hover:text-white/60 transition-colors">Use Cases</a>
         </div>
-        <button className="text-[10px] uppercase tracking-[0.2em] font-bold border border-white/20 px-6 py-2 rounded-full hover:bg-white hover:text-black transition-all">
-          Pre-order
-        </button>
+        <a href="https://docs.google.com/forms/d/e/YOUR_FORM_ID_HERE/viewform" target="_blank" rel="noopener noreferrer">
+          <button className="text-[10px] uppercase tracking-[0.2em] font-bold border border-white/20 px-6 py-2 rounded-full hover:bg-white hover:text-black transition-all">
+            Pre-book
+          </button>
+        </a>
       </nav>
 
       {/* Hero Section */}
@@ -231,7 +233,7 @@ export default function App() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className="aspect-video overflow-hidden border border-white/10">
                 <img 
-                  src="./images/2.png" 
+                  src="./images/4.png" 
                   alt="3D Modeling with Luphonix MK1" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   referrerPolicy="no-referrer"
@@ -271,7 +273,7 @@ export default function App() {
               </div>
               <div className="order-1 md:order-2 aspect-video overflow-hidden border border-white/10">
                 <img 
-                  src="./images/4.png" 
+                  src="./images/2.png" 
                   alt="Smart Home Ecosystem Control" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   referrerPolicy="no-referrer"
@@ -318,7 +320,7 @@ export default function App() {
             <span className="text-stroke">the future</span>
           </h2>
           <div className="flex flex-col md:flex-row items-center justify-center gap-8">
-            <button className="group flex items-center gap-4 text-2xl md:text-4xl font-display font-bold hover:text-white/60 transition-colors">
+            <button className="x group flex items-center gap-4 text-2xl md:text-4xl font-display font-bold hover:text-white/60 transition-colors">
               luphonix.com <ArrowUpRight className="w-8 h-8 group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform" />
             </button>
           </div>
