@@ -85,7 +85,7 @@ export default function App() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-[100] px-6 py-8 flex justify-between items-center mix-blend-difference">
         <div className="flex items-center gap-2">
-          <div className="w-6 h-6 bg-white rounded-full" />
+          <img src="./images/logo.png" alt="Luphonix Logo" className="w-9 h-9 object-contain" />
           <span className="font-display font-bold text-xl tracking-tighter uppercase">Luphonix</span>
         </div>
         <div className="hidden md:flex items-center gap-12 text-[10px] uppercase tracking-[0.2em] font-bold">
@@ -331,7 +331,7 @@ export default function App() {
       <footer className="py-12 px-6 border-t border-white/10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-2">
-            <div className="w-4 h-4 bg-white rounded-full" />
+            <img src="./images/logo.png" alt="Luphonix Logo" className="w-9 h-9 object-contain" />
             <span className="font-display font-bold text-sm tracking-tighter uppercase">Luphonix</span>
           </div>
           
