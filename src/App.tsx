@@ -85,7 +85,7 @@ export default function App() {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-[100] px-6 py-8 flex justify-between items-center mix-blend-difference">
         <a
-  href="https://luphonix.com/"
+  href="#"
   target="_blank"
   rel="noopener noreferrer"
   className="flex items-center gap-2"
