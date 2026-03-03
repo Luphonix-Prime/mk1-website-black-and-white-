@@ -84,17 +84,28 @@ export default function App() {
 
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-[100] px-6 py-8 flex justify-between items-center mix-blend-difference">
-        <div className="flex items-center gap-2">
-          <img src="./images/logo.png" alt="Luphonix Logo" className="w-9 h-9 object-contain" />
-          <span className="font-display font-bold text-xl tracking-tighter uppercase">Luphonix</span>
-        </div>
+        <a
+  href="https://luphonix.com/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2"
+>
+  <img
+    src="./images/logo.png"
+    alt="Luphonix Logo"
+    className="w-9 h-9 object-contain"
+  />
+  <span className="font-display font-bold text-xl tracking-tighter uppercase">
+    Luphonix
+  </span>
+</a>
         <div className="hidden md:flex items-center gap-12 text-[10px] uppercase tracking-[0.2em] font-bold">
           <a href="#about" className="hover:text-white/60 transition-colors">About</a>
           <a href="#details" className="hover:text-white/60 transition-colors">Product Details</a>
           <a href="#action" className="hover:text-white/60 transition-colors">See in Action</a>
           <a href="#use-cases" className="hover:text-white/60 transition-colors">Use Cases</a>
         </div>
-        <a href="https://docs.google.com/forms/d/e/YOUR_FORM_ID_HERE/viewform" target="_blank" rel="noopener noreferrer">
+        <a href="https://forms.gle/4dGoTFbridnX7kyX6" target="_blank" rel="noopener noreferrer">
           <button className="text-[10px] uppercase tracking-[0.2em] font-bold border border-white/20 px-6 py-2 rounded-full hover:bg-white hover:text-black transition-all">
             Pre-book
           </button>
@@ -124,7 +135,7 @@ export default function App() {
               transition={{ delay: 0.5, duration: 1 }}
               className="text-lg md:text-2xl text-white/60 max-w-xl leading-tight font-light"
             >
-              The future of control, gaming, and automation. Experience haptic precision like never before.
+              It is a gesture-controlled wearable that works as a smart device controller, gaming controller, keyboard, and mouse — enabling seamless, touchless interaction everywhere.
             </motion.p>
             
             <motion.div 
@@ -320,9 +331,15 @@ export default function App() {
             <span className="text-stroke">the future</span>
           </h2>
           <div className="flex flex-col md:flex-row items-center justify-center gap-8">
-            <button className="x group flex items-center gap-4 text-2xl md:text-4xl font-display font-bold hover:text-white/60 transition-colors">
-              luphonix.com <ArrowUpRight className="w-8 h-8 group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform" />
-            </button>
+            <a
+              href="https://luphonix.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="x group flex items-center gap-4 text-2xl md:text-4xl font-display font-bold hover:text-white/60 transition-colors"
+            >
+              luphonix.com{" "}
+              <ArrowUpRight className="w-8 h-8 group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform" />
+            </a>
           </div>
         </div>
       </section>
@@ -336,10 +353,18 @@ export default function App() {
           </div>
           
           <div className="flex gap-8">
-            <Twitter className="w-5 h-5 text-white/40 hover:text-white cursor-pointer transition-colors" />
-            <Instagram className="w-5 h-5 text-white/40 hover:text-white cursor-pointer transition-colors" />
-            <Linkedin className="w-5 h-5 text-white/40 hover:text-white cursor-pointer transition-colors" />
-            <Github className="w-5 h-5 text-white/40 hover:text-white cursor-pointer transition-colors" />
+            <a href="https://x.com/luphonixprime" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+              <Twitter className="w-5 h-5 text-white/40 hover:text-white cursor-pointer transition-colors" />
+            </a>
+            <a href="https://www.instagram.com/luphonix.tech/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <Instagram className="w-5 h-5 text-white/40 hover:text-white cursor-pointer transition-colors" />
+            </a>
+            <a href="https://www.linkedin.com/in/luphonix-innovators-0669bb359/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <Linkedin className="w-5 h-5 text-white/40 hover:text-white cursor-pointer transition-colors" />
+            </a>
+            <a href="https://github.com/Luphonix-Prime" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <Github className="w-5 h-5 text-white/40 hover:text-white cursor-pointer transition-colors" />
+            </a>
           </div>
 
           <p className="text-[10px] uppercase tracking-widest text-white/20">
